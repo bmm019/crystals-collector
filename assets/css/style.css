@@ -1,0 +1,23 @@
+body { 
+    background: url("../images/abstract geometric background purple-01.jpg");
+}
+
+.header {
+    text-align: center;
+}
+
+.directions {
+    text-align: center;
+    padding: 80px 80px;
+    color:  black;
+    
+}
+
+h1{
+    margin: 75px 0px 75px 0px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    color: #9370DB;
+}
