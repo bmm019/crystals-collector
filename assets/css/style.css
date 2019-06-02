@@ -1,5 +1,6 @@
 body { 
     background: url("../images/abstract geometric background purple-01.jpg");
+    background-attachment: scroll;
 }
 
 .header {
@@ -8,7 +9,6 @@ body {
 
 .directions {
     text-align: center;
-    padding: 80px 80px;
     color:  black;
     
 }
@@ -18,6 +18,26 @@ h1{
     letter-spacing: 10px;
 }
 
-h3 {
-    color: #9370DB;
+h3, #magicNumber, #totalScore, #wins, #losses, .scores {
+	color: #9932CC;
+} 
+ 
+.scores{
+    font-size: 23px;
+    font-weight: 600;
+}
+
+
+.crystalimg {
+    width: 150px;
+    
+	
+}
+
+.total, .scores, .directions {
+	margin: 75px 0px 75px 0px;
+}
+
+.score {
+    margin-bottom: 0;
 }
