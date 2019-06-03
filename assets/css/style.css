@@ -19,12 +19,12 @@ h1{
 }
 
 h3, #magicNumber, #totalScore, #wins, #losses, .scores {
-	color: #9932CC;
+	color: #4B0082;
 } 
  
-.scores{
+.scores {
     font-size: 23px;
-    font-weight: 600;
+    font-weight: 630;
 }
 
 
