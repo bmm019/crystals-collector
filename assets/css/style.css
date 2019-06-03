@@ -1,5 +1,5 @@
 body { 
-    background: url("../images/abstract geometric background purple-01.jpg");
+    background: url("../images/Abstract-Geometric-Background-Purple-01.jpg");
     background-attachment: scroll;
 }
 
@@ -15,10 +15,10 @@ body {
 
 h1{
     margin: 75px 0px 75px 0px;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
 }
 
-h3, #magicNumber, #totalScore, #wins, #losses, .scores {
+h3, h4, #magicNumber, #totalScore, #wins, #losses, .scores {
 	color: #4B0082;
 } 
  

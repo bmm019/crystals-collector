@@ -15,7 +15,7 @@
     
     
     function newNumbers() {
-		magicNumber = Math.floor(Math.random() * 120) + 19;
+        magicNumber = Math.floor((Math.random() * 102) + 19);
 		crystal1Num = Math.ceil(Math.random() * 12);
 		crystal2Num = Math.ceil(Math.random() * 12);
 		crystal3Num = Math.ceil(Math.random() * 12);
@@ -47,12 +47,14 @@
             $("#winOrLose").text("YOU WIN!");
             wins++;
             $("#wins").text(wins);
+           
         }
     
         function youLose() {
             $("#winOrLose").text("YOU LOSE");
             losses++;
             $("#losses").text(losses);
+            
         }
     
         newGame();
@@ -80,11 +82,17 @@
     
             if (totalScore === magicNumber) {
                 youWin();
+              
             } else if (totalScore > magicNumber) {
                 youLose();
+                
             }
-            
+
         });
-        
-        
+    // Function to reset the game
+
     });
+            
+        
+
+        
